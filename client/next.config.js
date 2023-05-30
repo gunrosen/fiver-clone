@@ -8,8 +8,11 @@ const nextConfig = {
         hostname: "**",
         port: "",
         pathname: "**",
-      },
+      }
     ],
+    domains: [
+        "localhost"
+    ]
   },
 };
 
